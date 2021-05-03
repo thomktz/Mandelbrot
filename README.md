@@ -1,2 +1,2 @@
 # Mandelbrot
-A faster way to generate Mandelbrot set zooms
+A faster way to generate Mandelbrot set zooms using extrapolation
