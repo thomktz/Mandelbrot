@@ -21,6 +21,10 @@ If at iteration `i`, `|z_i|` becomes greater than 2, the color value of the poin
 
 This value is later mapped into a `matplotlib` colormap to make it RGB
 
+### Interpolation
+
+In between two zooms, the interpolation will divide this zoom (usually 120%) as ~10 smaller zooms without having to calculate all points, by cropping and resizing the bigger image by a factor of = ~ 102%  (100% + 20%/10)
+
 ### How to use
 
 First, find a point `c = x + iy` near (outside) the set boundaries.  
