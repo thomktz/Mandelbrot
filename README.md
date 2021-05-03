@@ -38,4 +38,7 @@ Finally, call `create_video`
 
 https://user-images.githubusercontent.com/60552083/116859732-c03af980-ac00-11eb-9dd2-e1c49968f910.mp4
 
+### Limitations :
 
+Unfortunately, Python's floats and complex numbers are stored into 64-bits floats, which yields a precision of around 10^-9.  
+This becomes a limiting factor quite quickly, and we'd have to build a whole new class for 128-bits floats or more to zoom further in. This would be much heavier and wouldn't work with `numpy` anymore, so switching to another faster language and implement the new float structure there would solve the problem.
