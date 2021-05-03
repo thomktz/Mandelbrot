@@ -9,7 +9,7 @@ A point `c = a + ib` on the complex plane is in the Mandelbrot set if the sequen
 `z_0 = 0`  
 `z_n = z_(n-1)^2 + c`  
 
-diverges as `n -> +inf`
+converges as `n -> +inf`
 
 An important thing to notice is that if at some point `|z_n| > 2`, then the sequence is divergent.
 
